@@ -1,0 +1,176 @@
+ 
+ html {
+    scroll-behavior: smooth;
+ }
+ body {
+     margin: 0;
+     padding: 0;
+ }
+ 
+nav {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+   box-shadow: 0 3px 8px gray;
+    z-index: 9;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+}
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin:15px 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+
+}
+nav ul li a:hover {
+    background-color: #ccc;
+}
+/* End nav */
+
+/* Start header */
+header {
+    width: 100%;
+    position: relative;
+
+}
+header img {
+    width: 100%;
+}
+header h1 {
+   position: absolute;
+   top: 40%;
+   left: 40%;
+   font-size: 50px;
+   color: white;
+}
+header h1 span {
+    background-color: black;
+    padding: 5px;
+    opacity: .7;
+
+}
+/* End header */
+
+/* Start project */
+.Projects {
+    width: calc(92% / 4);
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+ h2 {
+    margin-left: 10px;
+}
+.Projects img {
+    width: 100%;
+}
+.Projects span {
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+/* End project */
+.clear {
+    clear: both;
+}
+/* Start about */
+.About {
+    width: calc(92% /4);
+    margin: 1%;
+    float: left;
+}
+section >p {
+    margin-left: 10px;
+}
+
+ section  >h2 {
+    margin-left: 10px;
+    margin-top: 100px;
+
+}
+.About img {
+    width: 100%;
+}
+.About h4 {
+    color: gray;
+}
+.About button {
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    outline: 0;
+    border: none;
+    transition: 1s;
+}
+.About button:hover {
+    background-color:#ccc;
+
+}
+/* End about */
+
+/* Start contact */
+form input {
+    width:96%;
+    margin: 10px;
+    padding: 10px;
+}
+form button {
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 1s;
+    outline: 0;
+    border: none;
+}
+form button:hover {
+    background-color:#ccc;
+    color: black;
+}
+/* End contact */
+
+/* Start map */
+.map {
+    width: 98%;
+    margin:auto;
+    
+}
+.map img {
+    margin-top: 40px;
+    width: 100%;
+}
+/* End map */
+
+/* Start footer */
+footer {
+
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+/* End footer */
